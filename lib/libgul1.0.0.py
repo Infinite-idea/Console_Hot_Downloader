@@ -2,7 +2,7 @@
 from pathlib import Path as path
 
 # Main function
-def __main__(FileAddress):
+def ReadFile(FileAddress):
     try:
         # Open and read urls list file
         Urls = open(FileAddress).read().splitlines()
